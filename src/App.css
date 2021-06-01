@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #212529;
+}
+
+#root {
+  height: 100vh;
+}
+
+.jumbotron {
+  height: 16%;
+  margin: 0;
+  background-color: transparent;
+}
+
+.font-header {
+  font-family: 'Zen Dots', cursive;
+}
+
+.font-button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.glow {
+  animation: glowing 3000ms ease-in infinite;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 0.5rem #0AA2C0;
+  }
+  50% {
+    box-shadow: 0 0 1.5rem #0AA2C0;
+  }
+  100% {
+    box-shadow: 0 0 0.5rem #0AA2C0;
+  }
+}
+
+.container {
+  height: 70%;
+  max-width: 100vw;
+}
+
+.close {
+  color: cyan;
+}
+
+.base-timer {
+  position: relative;
+  height: 19rem;
+  width: 19rem;
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 0.5rem;
+  stroke: #212529;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 0.3rem;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  stroke: currentColor;
+}
+
+.base-timer__bell {
+  filter: invert(67%) sepia(56%) saturate(7134%) hue-rotate(158deg) brightness(96%) contrast(92%);
+}
+
+.base-timer__label {
+  position: absolute; 
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+  color: rgb(0, 183, 255);
+} 
+
+.base-timer__label--soundEffectName {
+  font-size: 1rem;
+}
+
+.base-timer__label--timeLeft {
+  font-size: 3rem;
+  border-bottom: 0.125rem ridge rgb(0, 183, 255);
+}
+
+.base-timer__label--timerName {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 280px) {
+
+  .jumbotron {
+    padding: 4rem 2rem;
+  }
+  
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .card-group>.card {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 280px), (max-height: 568px) {
+  .base-timer {
+    height: 16rem;
+    width: 16rem;
+  }
+}

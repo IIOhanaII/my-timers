@@ -1,0 +1,1 @@
+export const timersNumberLimit = 6;
