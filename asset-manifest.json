@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-timers/static/css/main.7112fcbc.chunk.css",
+    "main.js": "/my-timers/static/js/main.a0e54136.chunk.js",
+    "main.js.map": "/my-timers/static/js/main.a0e54136.chunk.js.map",
+    "runtime-main.js": "/my-timers/static/js/runtime-main.1c46cf27.js",
+    "runtime-main.js.map": "/my-timers/static/js/runtime-main.1c46cf27.js.map",
+    "static/css/2.150d169a.chunk.css": "/my-timers/static/css/2.150d169a.chunk.css",
+    "static/js/2.8c6ea4a7.chunk.js": "/my-timers/static/js/2.8c6ea4a7.chunk.js",
+    "static/js/2.8c6ea4a7.chunk.js.map": "/my-timers/static/js/2.8c6ea4a7.chunk.js.map",
+    "static/js/3.b23893f3.chunk.js": "/my-timers/static/js/3.b23893f3.chunk.js",
+    "static/js/3.b23893f3.chunk.js.map": "/my-timers/static/js/3.b23893f3.chunk.js.map",
+    "index.html": "/my-timers/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/my-timers/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.7112fcbc.chunk.css.map": "/my-timers/static/css/main.7112fcbc.chunk.css.map",
+    "static/js/2.8c6ea4a7.chunk.js.LICENSE.txt": "/my-timers/static/js/2.8c6ea4a7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c46cf27.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.8c6ea4a7.chunk.js",
+    "static/css/main.7112fcbc.chunk.css",
+    "static/js/main.a0e54136.chunk.js"
+  ]
+}
